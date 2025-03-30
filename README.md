@@ -1,2 +1,3 @@
 # Parking_bd
-![КонцептуальнаяМодельАвто](https://github.com/user-attachments/assets/d645a73f-0d15-4ff4-a67e-45ccffb45bb0)
+Концептуальная модель
+![КонцептуальнаяМодельАвто (1)](https://github.com/user-attachments/assets/a45a59b1-a894-4d63-a169-f8136cbd1b2e)
