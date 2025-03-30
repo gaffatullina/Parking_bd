@@ -4,3 +4,6 @@
 
 Логическая модель
 ![КонцептуальнаяМодельАвто (1)](https://github.com/user-attachments/assets/a45a59b1-a894-4d63-a169-f8136cbd1b2e)
+
+физическая модель 
+![ФизическаяМодель](https://github.com/user-attachments/assets/3c8d9340-6da8-48d1-b1d3-b940756ca60e)
