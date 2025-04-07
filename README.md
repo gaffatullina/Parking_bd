@@ -9,4 +9,5 @@
 физическая модель 
 
 
-![ФизическаяМодель](https://github.com/user-attachments/assets/3c8d9340-6da8-48d1-b1d3-b940756ca60e)
+
+![ФизическаяМодель (1)](https://github.com/user-attachments/assets/d1e5ed13-0d42-4b02-9949-a913c4258f33)
