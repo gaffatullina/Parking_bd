@@ -1,0 +1,135 @@
+-- Owners
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Беляев Мир Бенедиктович', '+7 (005) 391-9756', 'ilarion81@mail.ru', '2024-12-19');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Григорьева Лора Юрьевна', '+7 (852) 116-4581', 'serge_1975@yahoo.com', '2024-06-23');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Дарья Мироновна Максимова', '8 840 959 26 59', 'mironovaekaterina@yandex.ru', '2024-10-24');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Самсонов Родион Дорофеевич', '8 (296) 272-0428', 'rtsvetkova@yandex.ru', '2024-08-14');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Зайцева Василиса Вадимовна', '+74775800337', 'savvati_90@gmail.com', '2024-05-10');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Януарий Власович Калинин', '8 631 229 30 95', 'vorobevatamara@oao.edu', '2023-09-23');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Силина Антонина Юрьевна', '+7 (820) 336-40-11', 'fekla18@hotmail.com', '2024-06-14');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Ладимир Тимурович Киселев', '8 (241) 029-63-57', 'kira2004@yahoo.com', '2024-06-24');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Филатов Мирослав Архипович', '8 741 907 05 31', 'potapovalukija@zao.ru', '2024-03-11');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Казаков Андроник Юльевич', '8 (835) 768-17-81', 'samson64@rambler.ru', '2023-07-28');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Аксенов Лаврентий Ефимьевич', '+7 473 930 49 94', 'sokrat_1984@ao.net', '2024-06-14');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('г-н Киселев Автоном Ермилович', '8 764 253 94 14', 'nikodim28@ip.info', '2025-03-18');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Данила Владиленович Гусев', '+7 331 312 37 66', 'sborisova@hotmail.com', '2025-02-19');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Носкова Алина Эдуардовна', '8 (979) 384-62-12', 'sofija_1977@rao.info', '2024-04-27');
+INSERT INTO Owners (full_name, phone, email, registration_date) VALUES ('Воронцова Наталья Харитоновна', '86534709382', 'isakovasvetlana@npo.info', '2023-06-07');
+
+-- Cars
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (1, 'Toyota', 'Camry', 'e123nn');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (2, 'Kia', 'Solaris', 'q957rz');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (3, 'Hyundai', 'Camry', 'J110cQ');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (4, 'Mazda', 'Camry', 'S539Cu');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (5, 'Ford', 'Camry', 's906ll');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (6, 'Toyota', 'Solaris', 'u573iG');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (7, 'Mazda', 'CX-5', 'w168hh');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (8, 'Mazda', 'Solaris', 'D374Wv');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (9, 'Mazda', 'Focus', 'y392PR');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (10, 'Ford', 'CX-5', 's877iK');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (11, 'Toyota', 'Solaris', 'Q723Ay');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (12, 'Ford', 'Rio', 'o248rw');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (13, 'Hyundai', 'Solaris', 'A315Pm');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (14, 'Kia', 'Camry', 'Q496Ra');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (15, 'Ford', 'Camry', 'q092Di');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (7, 'Lada', 'Granta', 'B999OP');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (7, 'Lada', 'Kalina', 'L000OX');
+INSERT INTO Cars (owner_id, brand, model, license_plate) VALUES (8, 'Vaz', '2107', 'V234IP');
+
+-- Payments
+INSERT INTO Payments (owner_id, amount, status) VALUES (6, 4389.98, 'просрочено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (5, 4228.51, 'просрочено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (8, 3144.91, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (2, 3208.16, 'просрочено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (10, 4541.81, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (7, 1769.15, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (1, 3645.05, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (2, 4421.27, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (7, 2111.89, 'просрочено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (14, 2459.33, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (7, 1838.03, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (12, 4746.62, 'просрочено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (2, 3436.52, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (9, 3916.51, 'оплачено');
+INSERT INTO Payments (owner_id, amount, status) VALUES (8, 2517.82, 'оплачено');
+
+-- Guards
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Кабанов Георгий Матвеевич', '+79247318900', 'день');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Виталий Еремеевич Ермаков', '+7 744 190 0861', 'ночь');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Самсонов Савватий Владиленович', '8 (915) 524-71-63', 'день');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Белов Остромир Эдгардович', '8 441 079 2751', 'день');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Пирогов Евгений Олегович', '+7 921 923-51-20', 'день');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Терентий Ермолаевич Доронин', '+7 070 639 8652', 'ночь');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Ковалева Елизавета Юрьевна', '81859960782', 'ночь');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Евлампий Васильевич Емельянов', '87157339797', 'ночь');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Фёкла Макаровна Муравьева', '+7 953 018 63 62', 'день');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Матвеев Конон Владленович', '+7 806 932 12 74', 'день');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Лапина Марина Аскольдовна', '+7 661 972 30 28', 'ночь');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Вероника Станиславовна Коновалова', '+7 (357) 449-00-04', 'день');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Мария Романовна Прохорова', '+7 (054) 438-52-07', 'ночь');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Станимир Марсович Данилов', '+7 (265) 621-60-65', 'ночь');
+INSERT INTO Guards (full_name, phone, schedule) VALUES ('Ладислав Анисимович Кондратьев', '+7 (401) 465-6086', 'ночь');
+
+-- Logs
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (1, 1, '2025-04-13 08:00:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (2, 2, '2025-04-13 08:30:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (3, 3, '2025-04-13 09:00:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (4, 4, '2025-04-13 09:30:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (5, 5, '2025-04-13 10:00:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (6, 6, '2025-04-13 10:30:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (7, 7, '2025-04-13 11:00:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (8, 8, '2025-04-13 11:30:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (9, 9, '2025-04-13 12:00:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (10, 10, '2025-04-13 12:30:00', NULL);
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (1, 11, '2025-04-12 08:00:00', '2025-04-12 18:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (2, 12, '2025-04-12 08:30:00', '2025-04-12 18:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (3, 13, '2025-04-11 09:00:00', '2025-04-11 19:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (4, 14, '2025-04-11 09:30:00', '2025-04-11 19:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (5, 15, '2025-04-11 10:00:00', '2025-04-11 20:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (6, 1, '2025-04-10 10:30:00', '2025-04-10 20:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (7, 2, '2025-04-10 11:00:00', '2025-04-10 21:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (8, 3, '2025-04-10 11:30:00', '2025-04-10 21:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (9, 4, '2025-04-09 12:00:00', '2025-04-09 22:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (10, 5, '2025-04-09 12:30:00', '2025-04-09 22:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (11, 6, '2025-04-08 08:00:00', '2025-04-08 18:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (12, 7, '2025-04-08 08:30:00', '2025-04-08 18:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (13, 8, '2025-04-07 09:00:00', '2025-04-07 19:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (14, 9, '2025-04-07 09:30:00', '2025-04-07 19:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (15, 10, '2025-04-07 10:00:00', '2025-04-07 20:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (16, 11, '2025-04-06 10:30:00', '2025-04-06 20:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (17, 12, '2025-04-06 11:00:00', '2025-04-06 21:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (18, 13, '2025-04-06 11:30:00', '2025-04-06 21:30:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (12, 14, '2025-04-05 12:00:00', '2025-04-05 22:00:00');
+INSERT INTO Logs (car_id, guard_id, entry_time, exit_time) VALUES (13, 15, '2025-04-05 12:30:00', '2025-04-05 22:30:00');
+
+
+-- Parking_spots
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (1, 101, 'обычное', 'занято', '2025-04-13 08:00:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (2, 102, 'увеличенное', 'занято', '2025-04-13 08:30:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (3, 103, 'обычное', 'занято', '2025-04-13 09:00:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (4, 104, 'обычное', 'занято', '2025-04-13 09:30:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (5, 105, 'увеличенное', 'занято', '2025-04-13 10:00:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (6, 106, 'обычное', 'занято', '2025-04-13 10:30:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (7, 107, 'обычное', 'занято', '2025-04-13 11:00:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (8, 108, 'увеличенное', 'занято', '2025-04-13 11:30:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (9, 109, 'обычное', 'занято', '2025-04-13 12:00:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (10, 110, 'увеличенное', 'занято', '2025-04-13 12:30:00', NULL, true);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (1, 201, 'обычное', 'свободно', '2025-04-12 08:00:00', '2025-04-12 18:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (2, 202, 'увеличенное', 'свободно', '2025-04-12 08:30:00', '2025-04-12 18:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (3, 203, 'обычное', 'свободно', '2025-04-11 09:00:00', '2025-04-11 19:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (4, 204, 'увеличенное', 'свободно', '2025-04-11 09:30:00', '2025-04-11 19:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (5, 205, 'обычное', 'свободно', '2025-04-11 10:00:00', '2025-04-11 20:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (6, 206, 'увеличенное', 'свободно', '2025-04-10 10:30:00', '2025-04-10 20:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (7, 207, 'обычное', 'свободно', '2025-04-10 11:00:00', '2025-04-10 21:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (8, 208, 'увеличенное', 'свободно', '2025-04-10 11:30:00', '2025-04-10 21:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (9, 209, 'обычное', 'свободно', '2025-04-09 12:00:00', '2025-04-09 22:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (10, 210, 'увеличенное', 'свободно', '2025-04-09 12:30:00', '2025-04-09 22:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (11, 211, 'обычное', 'свободно', '2025-04-08 08:00:00', '2025-04-08 18:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (12, 212, 'увеличенное', 'свободно', '2025-04-08 08:30:00', '2025-04-08 18:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (13, 213, 'обычное', 'свободно', '2025-04-07 09:00:00', '2025-04-07 19:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (14, 214, 'увеличенное', 'свободно', '2025-04-07 09:30:00', '2025-04-07 19:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (15, 215, 'обычное', 'свободно', '2025-04-07 10:00:00', '2025-04-07 20:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (16, 216, 'увеличенное', 'свободно', '2025-04-06 10:30:00', '2025-04-06 20:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (17, 217, 'обычное', 'свободно', '2025-04-06 11:00:00', '2025-04-06 21:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (18, 218, 'увеличенное', 'свободно', '2025-04-06 11:30:00', '2025-04-06 21:30:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (12, 219, 'обычное', 'свободно', '2025-04-05 12:00:00', '2025-04-05 22:00:00', false);
+INSERT INTO Parking_spots (car_id, spot_number, spot_type, status, valid_from, valid_to, is_current) VALUES (13, 220, 'увеличенное', 'свободно', '2025-04-05 12:30:00', '2025-04-05 22:30:00', false);
